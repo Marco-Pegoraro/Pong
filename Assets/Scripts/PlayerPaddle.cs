@@ -8,11 +8,6 @@ public class PlayerPaddle : Paddle
 
     private float verticalInput;
 
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
         verticalInput = Input.GetAxis("Vertical");

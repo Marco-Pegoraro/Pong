@@ -20,10 +20,10 @@ public class Ball : MonoBehaviour
         float negativeValue = Random.Range(-1.0f, 0.5f);
         float positiveValue = Random.Range(0.5f, 1.0f);
 
-        // Random.value retur a number between 0 and 1.
+        // Random.value return a number between 0 and 1.
         // Second part is a short if statement. If Random.value goes under 0.5f value goes -1.0, else goes 1.0
         float x = Random.value < 0.5f ? -1.0f : 1.0f;
-        float y = Random.value < 0.5f ?  negativeValue : positiveValue;
+        float y = Random.value < 0.5f ? negativeValue : positiveValue;
 
         Vector2 direction = new Vector2(x, y);
 
